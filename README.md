@@ -5,6 +5,11 @@ This simple all-in-one remote control solution can send batch code, messages, an
 
 This application allows incoming connections, it does not allow you to connect to other clients
 
+# Notes
+Place UsageMonitor.exe in the same folder as RemoteControl-Client.exe for remote tracking.
+
+Any other placement was and never will be supported for security reasons.
+
 # Links
 UsageMonitor [https://github.com/Speentie8081/UsageMonitor](https://github.com/Speentie8081/UsageMonitor).
 
