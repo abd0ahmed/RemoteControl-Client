@@ -103,12 +103,12 @@ namespace RemoteTerminal_Client
                     client = tcpListener.AcceptTcpClient();
                     StringBuilder stringBuilder = new StringBuilder();
                     stringBuilder.AppendLine(Environment.MachineName);
-                    stringBuilder.AppendLine("Protocol version : 1.10");
+                    stringBuilder.AppendLine("Protocol version : 1.11");
                     stringBuilder.AppendLine("Protocol last updated : " + GetLinkerTime(Assembly.GetExecutingAssembly()).ToString("MMMM dd yyyy, hh:mm tt"));
                     stringBuilder.AppendLine("Protocol receiving buffer size : 8192");
                     stringBuilder.AppendLine("Environment variable for files directory : %remotefiles%");
                     stringBuilder.AppendLine();
-                    stringBuilder.AppendLine("Capabilities : Simple file history; Simple file management; Batch code processor; Batch console monitoring; Multiple connections support; Screenshot capture support; Remote client updating");
+                    stringBuilder.AppendLine("Capabilities : Simple file history; Simple file management; Batch code processor; Batch console monitoring; Multiple connections support; Screenshot capture support; Remote client updating; Background mp3 support");
                     try
                     {
                         if (!Directory.Exists(fileDirectory))
