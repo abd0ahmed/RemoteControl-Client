@@ -4,13 +4,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 
-[assembly: AssemblyTitle("inetControl Module")]
-[assembly: AssemblyDescription("RemoteControl-Client")]
+[assembly: AssemblyTitle("Runtime Broker")]
+[assembly: AssemblyDescription("Runtime Broker")]
 [assembly: AssemblyConfiguration("")]
 [assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RemoteControl-Client")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("Runtime Broker")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("b46ffce7-973d-4e2c-97b4-01e6cbe7e916")]
